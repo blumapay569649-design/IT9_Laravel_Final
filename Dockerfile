@@ -46,6 +46,10 @@ WORKDIR /var/www/html
 # Copy Laravel app
 COPY . .
 
+# Copy Aiven CA certificate
+RUN mkdir -p /etc/mysql/ssl
+COPY aiven-ca.crt /etc/mysql/ssl/aiven-ca.crt
+
 # Install PHP dependencies
 RUN composer install --no-dev --optimize-autoloader --no-interaction
 
