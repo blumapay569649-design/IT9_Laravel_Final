@@ -68,7 +68,7 @@ RUN mkdir -p storage/framework/cache storage/framework/sessions \
     && chmod -R 775 storage bootstrap/cache public/uploads
 
 # Run migrations
-RUN php artisan migrate --force || true
+CMD php artisan migrate --force && apache2-foreground
 
 # Expose port
 EXPOSE 10000
