@@ -141,8 +141,8 @@
             <p style="color: #666; font-size: 14px; margin-bottom: 10px;">Use <strong>Employee Login</strong> for Cashier / Seller accounts.</p>
             <p style="color: #666; font-size: 14px; margin-bottom: 10px;">Demo Credentials:</p>
             <p style="color: #667eea; font-size: 13px;">
-                <strong>Username:</strong> admin<br>
-                <strong>Password:</strong> demo123
+                <strong>Username:</strong> Vsaber<br>
+                <strong>Password:</strong> demo1234
             </p>
         </div>
     </div>
